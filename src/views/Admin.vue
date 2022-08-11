@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-screen pt-12 text-center">
+  <div class="">
     This is the admin page
   </div>
 </template>

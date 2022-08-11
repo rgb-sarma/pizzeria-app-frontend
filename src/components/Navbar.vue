@@ -67,6 +67,7 @@ const goHome = (): void => {
       white-space: pre;
       text-decoration: none;
       color: #333;
+      font-weight: bold;
       font-style: italic;
     }
   }

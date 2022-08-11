@@ -73,6 +73,10 @@ const search = (): void => {
     color: #333;
     font-size: 16px;
 
+    &:focus {
+      border: 2px solid yellow;
+    }
+
     &::placeholder {
       font-size: 16px;
       color: #ccc;

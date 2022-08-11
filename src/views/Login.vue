@@ -1,13 +1,13 @@
 <template>
   <div class="login-wrapper">
-    <p>
-      This is the login page
-    </p>
+    <h3>
+      LOGIN
+    </h3>
     <div class="inputs-wrapper">
       <BaseInput name="Pictures of spiderman" @inputVal="debug"/>
       <BaseInput name="Pictures of spiderman feet" type="password" @inputVal="debug($event, 1)"/>
     </div>
-    <button @click="callApi">Dummy</button>
+    <button class="btn" @click="callApi">Dummy</button>
   </div>
 </template>
 
@@ -38,6 +38,7 @@ const callApi = (): void => {
 </script>
 
 <style scoped lang="scss">
+@use '../styles/_mixins.scss';
 .login-wrapper {
   display: flex;
   flex-direction: column;
@@ -51,6 +52,12 @@ const callApi = (): void => {
     align-items: center;
     height: 100px;
     margin-top: 20px;
+  }
+
+  .btn {
+    @include mixins.btn-style(340px);
+    margin-top: 20px;
+    font-size: 16px;
   }
 
   p {

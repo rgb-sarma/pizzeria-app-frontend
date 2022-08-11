@@ -11,6 +11,6 @@ import Navbar from './components/Navbar.vue';
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>

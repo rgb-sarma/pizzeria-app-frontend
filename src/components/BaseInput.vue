@@ -59,7 +59,7 @@ const sendValue = (): void => {
   
 
   .base-input {
-    width: calc(340px - 35px);
+    width: calc(340px - 20px);
     height: 40px;
     border-radius: 10px;
     border: 1px solid #ccc;

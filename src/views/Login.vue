@@ -8,7 +8,7 @@
       <BaseInput name="Pictures of spiderman feet" type="password" @inputVal="debug($event, 1)"/>
     </div>
     <div class="btn-wrapper">
-      <button class="btn back">Back</button>
+      <button class="btn back" @click="$router.push('/')">Back</button>
       <button class="btn" @click="callApi">Log In</button>
     </div>
   </div>
